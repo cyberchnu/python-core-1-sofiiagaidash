@@ -1,3 +1,7 @@
 def squares_sum(n):
-  # Type your code
-  return
+  a = 0
+  for num in range(n+1):
+    a += num**2
+  return a
+
+
